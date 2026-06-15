@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="English">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0f1b2d">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Grammar Practice</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Baloo+2:wght@500;700&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Nunito',sans-serif;background:#0f1b2d;color:#e8eaf6;min-height:100vh;padding:16px 16px 48px;}
+  .app{max-width:680px;margin:0 auto}
+  .header{text-align:center;padding:18px 0 14px}
+  .header h1{font-family:'Baloo 2',cursive;font-size:24px;font-weight:700;color:#7ec8e3;margin-bottom:3px}
+  .header p{font-size:12px;color:#8899aa}
+
+  .chapter-tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:16px;background:#1a2c40;padding:5px;border-radius:14px}
+  .tab-row2{grid-template-columns:repeat(3,1fr)!important;margin-top:0!important}
+  .tab-btn{padding:8px 4px;border:none;border-radius:9px;font-family:'Nunito',sans-serif;font-size:11px;font-weight:700;cursor:pointer;transition:all .2s;background:transparent;color:#8899aa;line-height:1.3;text-align:center}
+  .tab-btn.active{background:#7ec8e3;color:#0f1b2d}
+  .tab-btn.vocab-tab.active{background:#f4a261;color:#0f1b2d}
+
+  .grammar-note{background:#1a2c40;border:1.5px solid #2a3f58;border-radius:14px;padding:12px 16px;margin-bottom:14px;font-size:13px;color:#c0d0e0;line-height:1.7}
+  .grammar-note strong{color:#7ec8e3;display:block;margin-bottom:4px;font-size:13px}
+  .grammar-note em{color:#a8edcd;font-style:normal;font-weight:700}
+
+  .progress-bar-wrap{background:#1a2c40;border-radius:20px;height:8px;margin-bottom:5px;overflow:hidden}
+  .progress-bar-fill{height:100%;background:linear-gradient(90deg,#7ec8e3,#a8edcd);border-radius:20px;transition:width .4s}
+  .progress-label{font-size:12px;color:#8899aa;margin-bottom:14px;text-align:right}
+
+  .card{background:#1a2c40;border-radius:20px;padding:20px;margin-bottom:14px;border:1.5px solid #2a3f58}
+  .question-num{font-size:11px;color:#7ec8e3;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:9px}
+  .question-text{font-size:17px;font-weight:700;color:#e8eaf6;margin-bottom:16px;line-height:1.5}
+
+  .options-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+  .option-btn{padding:11px 13px;border:1.5px solid #2a3f58;border-radius:12px;background:#0f1b2d;color:#d0dbe8;font-family:'Nunito',sans-serif;font-size:14px;font-weight:600;cursor:pointer;text-align:left;transition:background .15s,border-color .15s,color .15s}
+  .option-btn:hover:not(:disabled){border-color:#7ec8e3;color:#7ec8e3;transform:translateY(-1px)}
+  .option-btn:disabled{cursor:default;opacity:0.85}
+  .option-btn.revealed-correct{background:#0d3b2e;border-color:#4caf8a;color:#a8edcd}
+  .option-btn.revealed-wrong{background:#3b1515;border-color:#cf6679;color:#f4a0a8}
+
+  .feedback{margin-top:11px;padding:10px 14px;border-radius:10px;font-size:13px;font-weight:700;display:none;line-height:1.5}
+  .feedback.correct{background:#0d3b2e;color:#a8edcd;display:block}
+  .feedback.wrong{background:#3b1515;color:#f4a0a8;display:block}
+
+  .fill-hint{font-size:12px;color:#8899aa;margin-bottom:7px}
+  .verb-badge{background:#2a3f58;color:#7ec8e3;font-weight:800;padding:3px 9px;border-radius:7px;font-size:13px;font-family:'Baloo 2',cursive}
+  .sentence-parts{font-size:17px;font-weight:700;color:#e8eaf6;line-height:2.1;margin-bottom:5px}
+  .tries-indicator{display:flex;gap:5px;margin-bottom:9px}
+  .try-dot{width:9px;height:9px;border-radius:50%;background:#7ec8e3;transition:background .2s}
+  .try-dot.used{background:#cf6679}
+  .fill-wrap{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:11px}
+  .fill-input{border:2px solid #2a3f58;border-radius:10px;background:#0f1b2d;color:#e8eaf6;font-family:'Nunito',sans-serif;font-size:15px;font-weight:700;padding:9px 13px;outline:none;width:200px;transition:border-color .2s}
+  .fill-input:focus{border-color:#7ec8e3}
+  .fill-input.correct{border-color:#4caf8a;background:#0d3b2e;color:#a8edcd}
+  .fill-input.wrong{border-color:#cf6679;background:#3b1515;color:#f4a0a8;animation:shake .3s}
+  @keyframes shake{0%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}100%{transform:translateX(0)}}
+  .check-btn{padding:9px 18px;background:#7ec8e3;color:#0f1b2d;font-family:'Nunito',sans-serif;font-size:14px;font-weight:800;border:none;border-radius:10px;cursor:pointer;transition:all .2s}
+  .check-btn:active{background:#a8edcd}
+
+  .score-screen{text-align:center;padding:24px 14px}
+  .score-screen .stars{font-size:26px;margin-bottom:7px}
+  .score-screen h2{font-family:'Baloo 2',cursive;font-size:20px;color:#7ec8e3;margin-bottom:5px}
+  .score-screen .big-score{font-size:44px;font-weight:800;color:#a8edcd}
+  .score-screen p{color:#8899aa;font-size:13px;margin-top:5px}
+  .restart-btn{margin-top:18px;padding:11px 28px;background:#7ec8e3;color:#0f1b2d;font-family:'Nunito',sans-serif;font-size:14px;font-weight:800;border:none;border-radius:12px;cursor:pointer}
+
+  .spk-btn{background:transparent;border:none;cursor:pointer;font-size:14px;padding:1px 4px;border-radius:5px;line-height:1;transition:transform .1s;vertical-align:middle}
+  .spk-btn:active{transform:scale(1.3)}
+  .speak-row{display:inline}
+
+  /* VOCAB STYLES */
+  .vocab-card{background:#1a2c40;border-radius:20px;padding:20px;margin-bottom:14px;border:1.5px solid #3a2a10}
+  .vocab-question{font-size:22px;font-weight:800;color:#f4a261;margin-bottom:6px;text-align:center}
+  .vocab-sub{font-size:13px;color:#8899aa;text-align:center;margin-bottom:18px}
+  .vocab-opts{display:flex;flex-direction:column;gap:9px}
+  .vocab-btn{padding:12px 16px;border:1.5px solid #3a2a10;border-radius:12px;background:#0f1b2d;color:#d0dbe8;font-family:'Nunito',sans-serif;font-size:15px;font-weight:600;cursor:pointer;text-align:left;transition:all .2s}
+  .vocab-btn:hover:not(:disabled){border-color:#f4a261;color:#f4a261}
+  .vocab-btn.revealed-correct{background:#1a2800;border-color:#a8c040;color:#c8e860}
+  .vocab-btn.revealed-wrong{background:#3b1515;border-color:#cf6679;color:#f4a0a8}
+  .vocab-btn:disabled{cursor:default}
+  .vocab-score{display:flex;gap:10px;justify-content:center;margin-bottom:14px;font-size:13px;color:#8899aa}
+  .vocab-score span{font-weight:700;color:#f4a261}
+  .flip-card{perspective:600px;width:100%;height:140px;cursor:pointer;margin-bottom:14px}
+  .flip-inner{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d}
+  .flip-card.flipped .flip-inner{transform:rotateY(180deg)}
+  .flip-front,.flip-back{position:absolute;width:100%;height:100%;backface-visibility:hidden;border-radius:18px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+  .flip-front{background:#1a2c40;border:1.5px solid #3a2a10}
+  .flip-back{background:#1a2800;border:1.5px solid #a8c040;transform:rotateY(180deg)}
+  .flip-word{font-size:26px;font-weight:800;color:#f4a261}
+  .flip-hint{font-size:12px;color:#8899aa}
+  .flip-hebrew{font-size:22px;font-weight:800;color:#c8e860;direction:rtl}
+  .flip-tap{font-size:11px;color:#8899aa;margin-top:4px}
+  .vocab-mode-btns{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
+  .vmode-btn{padding:9px;border-radius:10px;border:1.5px solid #3a2a10;background:transparent;color:#8899aa;font-family:'Nunito',sans-serif;font-size:12px;font-weight:700;cursor:pointer;transition:all .2s}
+  .vmode-btn.active{background:#f4a261;color:#0f1b2d;border-color:#f4a261}
+  .vocab-progress{font-size:12px;color:#8899aa;margin-bottom:12px;text-align:center}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="header">
+    <h1>🎓 English Practice</h1>
+    <p>Present Simple · Progressive · Past Simple · Vocabulary</p>
+  </div>
+
+  <div class="chapter-tabs" id="tabs-row1">
+    <button class="tab-btn active" id="tab1" onclick="switchChapter(1)">📝 Ch.1<br>Simple<br>Choice</button>
+    <button class="tab-btn" id="tab2" onclick="switchChapter(2)">✏️ Ch.2<br>Simple<br>Fill-in</button>
+    <button class="tab-btn" id="tab3" onclick="switchChapter(3)">📝 Ch.3<br>Prog.<br>Choice</button>
+    <button class="tab-btn" id="tab4" onclick="switchChapter(4)">✏️ Ch.4<br>Prog.<br>Fill-in</button>
+  </div>
+  <div class="chapter-tabs tab-row2" style="grid-template-columns:repeat(4,1fr)!important">
+    <button class="tab-btn" id="tab5" onclick="switchChapter(5)">📝 Ch.5<br>Past<br>Choice</button>
+    <button class="tab-btn" id="tab6" onclick="switchChapter(6)">✏️ Ch.6<br>Past<br>Fill-in</button>
+    <button class="tab-btn vocab-tab" id="tab7" onclick="switchChapter(7)">🟠 Ch.7<br>Vocab<br>Quiz</button>
+    <button class="tab-btn" id="tab8" onclick="switchChapter(8)" style="background:transparent;color:#8899aa;border-radius:9px">📚 Ch.8<br>הסבר<br>Past</button>
+  </div>
+
+  <div class="chapter-tabs" style="margin-top:0;grid-template-columns:1fr 1fr;gap:5px;background:#1a2c40;padding:5px;border-radius:14px;margin-bottom:16px">
+    <button class="tab-btn" id="tab9" onclick="switchChapter(9)" style="background:transparent;color:#8899aa;border-radius:9px">🎯 Ch.9<br>Mix<br>Choice</button>
+    <button class="tab-btn" id="tab10" onclick="switchChapter(10)" style="background:transparent;color:#8899aa;border-radius:9px">🎯 Ch.10<br>Mix<br>Fill-in</button>
+  </div>
+  <div id="chapter1">
+    <div class="grammar-note"><strong>📖 Present Simple</strong>Habits & routines: <em>She goes</em> to school every day. Rule: he/she/it → add <em>-s/-es</em></div>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="prog1"></div></div>
+    <div class="progress-label" id="label1"></div>
+    <div id="q1card" class="card"></div>
+  </div>
+
+  <!-- CH2 -->
+  <div id="chapter2" style="display:none">
+    <div class="grammar-note"><strong>📖 Present Simple — Fill in</strong>Write the correct verb form. he/she/it needs <em>-s/-es</em>!</div>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="prog2"></div></div>
+    <div class="progress-label" id="label2"></div>
+    <div id="q2card" class="card"></div>
+  </div>
+
+  <!-- CH3 -->
+  <div id="chapter3" style="display:none">
+    <div class="grammar-note"><strong>📖 Present Progressive</strong>Actions happening <em>right now</em>: <em>She is reading</em>. Formula: <em>am/is/are + verb-ing</em></div>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="prog3"></div></div>
+    <div class="progress-label" id="label3"></div>
+    <div id="q3card" class="card"></div>
+  </div>
+
+  <!-- CH4 -->
+  <div id="chapter4" style="display:none">
+    <div class="grammar-note"><strong>📖 Present Progressive — Fill in</strong>Write the full form: <em>am/is/are + verb-ing</em></div>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="prog4"></div></div>
+    <div class="progress-label" id="label4"></div>
+    <div id="q4card" class="card"></div>
+  </div>
+
+  <!-- CH5 -->
+  <div id="chapter5" style="display:none">
+    <div class="grammar-note"><strong>📖 Past Simple</strong>Completed actions: <em>She went</em> to school yesterday. Regular: add <em>-ed</em>. Irregular: learn them by heart! (go→went, eat→ate, see→saw)</div>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="prog5"></div></div>
+    <div class="progress-label" id="label5"></div>
+    <div id="q5card" class="card"></div>
+  </div>
+
+  <!-- CH6 -->
+  <div id="chapter6" style="display:none">
+    <div class="grammar-note"><strong>📖 Past Simple — Fill in</strong>Write the correct past form. Watch out for irregular verbs!</div>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="prog6"></div></div>
+    <div class="progress-label" id="label6"></div>
+    <div id="q6card" class="card"></div>
+  </div>
+
+  <!-- CH7 VOCAB -->
+  <div id="chapter7" style="display:none">
+    <div class="grammar-note" style="border-color:#3a2a10"><strong style="color:#f4a261">🟠 Vocabulary Quiz — 30 Words</strong>Practice the verbs and words from your school list in three modes!</div>
+    <div class="vocab-mode-btns">
+      <button class="vmode-btn active" id="vm1" onclick="setVocabMode('flash')">🃏 Flashcards</button>
+      <button class="vmode-btn" id="vm2" onclick="setVocabMode('quiz')">❓ Quiz</button>
+      <button class="vmode-btn" id="vm3" onclick="setVocabMode('mc')">🔤 4 בחירות</button>
+    </div>
+    <div id="vocab-area"></div>
+  </div>
+
+  <!-- CH8 PAST SIMPLE EXPLANATION -->
+  <div id="chapter8" style="display:none;direction:rtl">
+
+    <div style="background:#1a2c40;border:2px solid #7ec8e3;border-radius:20px;padding:22px;margin-bottom:14px">
+      <div style="font-family:'Baloo 2',cursive;font-size:22px;color:#7ec8e3;margin-bottom:6px;text-align:center">📖 Past Simple — זמן עבר פשוט</div>
+      <div style="text-align:center;margin-bottom:16px">
+        <button onclick="speakAll()" style="background:#7ec8e3;color:#0f1b2d;border:none;border-radius:10px;padding:8px 20px;font-family:'Nunito',sans-serif;font-size:13px;font-weight:800;cursor:pointer">🔊 קרא הכל</button>
+        <button onclick="stopSpeak()" style="background:transparent;border:1.5px solid #cf6679;color:#cf6679;border-radius:10px;padding:8px 14px;font-family:'Nunito',sans-serif;font-size:13px;font-weight:700;cursor:pointer;margin-right:8px">⏹ עצור</button>
+      </div>
+
+      <!-- WHAT IS IT -->
+      <div style="margin-bottom:20px">
+        <div style="font-size:15px;font-weight:800;color:#a8edcd;margin-bottom:8px">🔵 מה זה Past Simple?</div>
+        <div style="font-size:14px;color:#c0d0e0;line-height:1.8">Past Simple הוא זמן עבר — אנחנו משתמשים בו כשרוצים לספר על משהו שקרה <strong style="color:#7ec8e3">בעבר וכבר הסתיים</strong>. כמו: "אכלתי", "שיחקתי", "ניקיתי".</div>
+        <div style="margin-top:10px;background:#0f1b2d;border-radius:10px;padding:12px;font-size:14px;color:#e8eaf6;line-height:2.2">
+          <span class="speak-row">✅ <em style="color:#a8edcd">I played football yesterday.</em> — שיחקתי כדורגל אתמול. <button class="spk-btn" onclick="speak('I played football yesterday')">🔊</button></span><br>
+          <span class="speak-row">✅ <em style="color:#a8edcd">She cleaned her room.</em> — היא ניקתה את חדרה. <button class="spk-btn" onclick="speak('She cleaned her room')">🔊</button></span><br>
+          <span class="speak-row">✅ <em style="color:#a8edcd">We talked for an hour.</em> — דיברנו שעה. <button class="spk-btn" onclick="speak('We talked for an hour')">🔊</button></span>
+        </div>
+      </div>
+
+      <!-- HOW TO FORM -->
+      <div style="margin-bottom:20px">
+        <div style="font-size:15px;font-weight:800;color:#a8edcd;margin-bottom:8px">🔵 איך יוצרים Past Simple — פעלים רגילים?</div>
+        <div style="font-size:14px;color:#c0d0e0;line-height:1.8">הכלל פשוט: לוקחים את הפועל ומוסיפים <strong style="color:#f4a261">-ed</strong> בסוף. וזה נכון <strong style="color:#7ec8e3">לכל הגופים</strong> — I, you, he, she, we, they — הכל אותו דבר! אין שינוי!</div>
+        <div style="margin-top:10px;background:#0f1b2d;border-radius:10px;padding:12px;font-size:14px;color:#e8eaf6;line-height:2.4;direction:ltr">
+          play → <strong style="color:#f4a261">play<u>ed</u></strong> <button class="spk-btn" onclick="speak('play, played')">🔊</button><br>
+          clean → <strong style="color:#f4a261">clean<u>ed</u></strong> <button class="spk-btn" onclick="speak('clean, cleaned')">🔊</button><br>
+          talk → <strong style="color:#f4a261">talk<u>ed</u></strong> <button class="spk-btn" onclick="speak('talk, talked')">🔊</button><br>
+          visit → <strong style="color:#f4a261">visit<u>ed</u></strong> <button class="spk-btn" onclick="speak('visit, visited')">🔊</button><br>
+          finish → <strong style="color:#f4a261">finish<u>ed</u></strong> <button class="spk-btn" onclick="speak('finish, finished')">🔊</button>
+        </div>
+      </div>
+
+      <!-- SPELLING RULES -->
+      <div style="margin-bottom:20px">
+        <div style="font-size:15px;font-weight:800;color:#a8edcd;margin-bottom:8px">🔵 כללי כתיב חשובים</div>
+        <div style="background:#0f1b2d;border-radius:10px;padding:14px;font-size:13.5px;color:#c0d0e0;line-height:2.2">
+          <div style="margin-bottom:12px">
+            <span style="color:#f4a261;font-weight:800">כלל 1:</span> פועל שמסתיים ב-<strong>e</strong> — מוסיפים רק <strong style="color:#f4a261">-d</strong><br>
+            <span style="color:#8899aa;direction:ltr;display:block">like → like<strong style="color:#f4a261">d</strong> <button class="spk-btn" onclick="speak('like, liked')">🔊</button> &nbsp;|&nbsp; save → save<strong style="color:#f4a261">d</strong> <button class="spk-btn" onclick="speak('save, saved')">🔊</button> &nbsp;|&nbsp; dance → dance<strong style="color:#f4a261">d</strong> <button class="spk-btn" onclick="speak('dance, danced')">🔊</button></span>
+          </div>
+          <div style="margin-bottom:12px">
+            <span style="color:#f4a261;font-weight:800">כלל 2:</span> פועל שמסתיים ב-<strong>עיצור + y</strong> — מחליפים y ב-<strong style="color:#f4a261">ied</strong><br>
+            <span style="color:#8899aa;direction:ltr;display:block">cry → cr<strong style="color:#f4a261">ied</strong> <button class="spk-btn" onclick="speak('cry, cried')">🔊</button> &nbsp;|&nbsp; carry → carr<strong style="color:#f4a261">ied</strong> <button class="spk-btn" onclick="speak('carry, carried')">🔊</button> &nbsp;|&nbsp; study → stud<strong style="color:#f4a261">ied</strong> <button class="spk-btn" onclick="speak('study, studied')">🔊</button></span>
+          </div>
+          <div>
+            <span style="color:#f4a261;font-weight:800">כלל 3:</span> פועל קצר שמסתיים ב-<strong>עיצור + תנועה + עיצור</strong> — מכפילים את האות האחרונה<br>
+            <span style="color:#8899aa;direction:ltr;display:block">stop → stop<strong style="color:#f4a261">ped</strong> <button class="spk-btn" onclick="speak('stop, stopped')">🔊</button> &nbsp;|&nbsp; plan → plan<strong style="color:#f4a261">ned</strong> <button class="spk-btn" onclick="speak('plan, planned')">🔊</button></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- NEGATIVE -->
+      <div style="margin-bottom:20px">
+        <div style="font-size:15px;font-weight:800;color:#a8edcd;margin-bottom:8px">🔵 שלילה — לא עשיתי</div>
+        <div style="font-size:14px;color:#c0d0e0;line-height:1.8">לשלילה משתמשים ב-<strong style="color:#f4a261">did not</strong> (או בקיצור <strong style="color:#f4a261">didn't</strong>) + הפועל בצורה הבסיסית (ללא -ed).</div>
+        <div style="margin-top:10px;background:#0f1b2d;border-radius:10px;padding:12px;font-size:14px;color:#e8eaf6;line-height:2.2">
+          <span class="speak-row">❌ <em style="color:#f4a0a8">I didn't play football.</em> — לא שיחקתי כדורגל. <button class="spk-btn" onclick="speak('I did not play football')">🔊</button></span><br>
+          <span class="speak-row">❌ <em style="color:#f4a0a8">She didn't clean her room.</em> — היא לא ניקתה את חדרה. <button class="spk-btn" onclick="speak('She did not clean her room')">🔊</button></span>
+        </div>
+      </div>
+
+      <!-- QUESTION -->
+      <div style="margin-bottom:20px">
+        <div style="font-size:15px;font-weight:800;color:#a8edcd;margin-bottom:8px">🔵 שאלה</div>
+        <div style="font-size:14px;color:#c0d0e0;line-height:1.8">לשאלה משתמשים ב-<strong style="color:#f4a261">Did</strong> בתחילת המשפט + הפועל הבסיסי.</div>
+        <div style="margin-top:10px;background:#0f1b2d;border-radius:10px;padding:12px;font-size:14px;color:#e8eaf6;line-height:2.2">
+          <span class="speak-row">❓ <em style="color:#7ec8e3">Did you play football?</em> — האם שיחקת כדורגל? <button class="spk-btn" onclick="speak('Did you play football?')">🔊</button></span><br>
+          <span class="speak-row">❓ <em style="color:#7ec8e3">Did she clean her room?</em> — האם היא ניקתה את חדרה? <button class="spk-btn" onclick="speak('Did she clean her room?')">🔊</button></span><br>
+          <span class="speak-row">✅ <em style="color:#a8edcd">Yes, I did.</em> <button class="spk-btn" onclick="speak('Yes, I did')">🔊</button> &nbsp; ❌ <em style="color:#f4a0a8">No, I didn't.</em> <button class="spk-btn" onclick="speak('No, I did not')">🔊</button></span>
+        </div>
+      </div>
+
+      <!-- TIME WORDS -->
+      <div style="margin-bottom:20px">
+        <div style="font-size:15px;font-weight:800;color:#a8edcd;margin-bottom:8px">🔵 מילות זמן — איך יודעים שצריך Past Simple?</div>
+        <div style="background:#0f1b2d;border-radius:10px;padding:14px;font-size:14px;color:#e8eaf6;line-height:2.4;direction:ltr">
+          <strong style="color:#f4a261">yesterday</strong> <button class="spk-btn" onclick="speak('yesterday')">🔊</button> — אתמול<br>
+          <strong style="color:#f4a261">last night</strong> <button class="spk-btn" onclick="speak('last night')">🔊</button> / <strong style="color:#f4a261">last week</strong> <button class="spk-btn" onclick="speak('last week')">🔊</button> / <strong style="color:#f4a261">last year</strong> <button class="spk-btn" onclick="speak('last year')">🔊</button><br>
+          <strong style="color:#f4a261">ago</strong> <button class="spk-btn" onclick="speak('two days ago')">🔊</button> — לפני (two days ago = לפני יומיים)<br>
+          <strong style="color:#f4a261">in 2020</strong> <button class="spk-btn" onclick="speak('in twenty twenty')">🔊</button> — בשנת 2020
+        </div>
+      </div>
+
+      <!-- SUMMARY TABLE -->
+      <div>
+        <div style="font-size:15px;font-weight:800;color:#a8edcd;margin-bottom:8px">🔵 טבלת סיכום — הפועל play</div>
+        <table style="width:100%;border-collapse:collapse;font-size:13.5px;direction:ltr">
+          <tr style="background:#2a3f58">
+            <th style="padding:8px 10px;color:#7ec8e3;text-align:left">גוף</th>
+            <th style="padding:8px 10px;color:#7ec8e3;text-align:left">חיוב ✅</th>
+            <th style="padding:8px 10px;color:#7ec8e3;text-align:left">שלילה ❌</th>
+            <th style="padding:8px 10px;color:#7ec8e3;text-align:left">🔊</th>
+          </tr>
+          <tr style="border-bottom:1px solid #1a2c40"><td style="padding:7px 10px;color:#8899aa">I</td><td style="padding:7px 10px;color:#a8edcd;font-weight:700">played</td><td style="padding:7px 10px;color:#f4a0a8">didn't play</td><td><button class="spk-btn" onclick="speak('I played. I did not play.')">🔊</button></td></tr>
+          <tr style="border-bottom:1px solid #1a2c40;background:#1a2c4055"><td style="padding:7px 10px;color:#8899aa">You</td><td style="padding:7px 10px;color:#a8edcd;font-weight:700">played</td><td style="padding:7px 10px;color:#f4a0a8">didn't play</td><td><button class="spk-btn" onclick="speak('You played. You did not play.')">🔊</button></td></tr>
+          <tr style="border-bottom:1px solid #1a2c40"><td style="padding:7px 10px;color:#8899aa">He / She</td><td style="padding:7px 10px;color:#a8edcd;font-weight:700">played</td><td style="padding:7px 10px;color:#f4a0a8">didn't play</td><td><button class="spk-btn" onclick="speak('He played. He did not play.')">🔊</button></td></tr>
+          <tr style="border-bottom:1px solid #1a2c40;background:#1a2c4055"><td style="padding:7px 10px;color:#8899aa">We</td><td style="padding:7px 10px;color:#a8edcd;font-weight:700">played</td><td style="padding:7px 10px;color:#f4a0a8">didn't play</td><td><button class="spk-btn" onclick="speak('We played. We did not play.')">🔊</button></td></tr>
+          <tr style="border-bottom:1px solid #1a2c40"><td style="padding:7px 10px;color:#8899aa">They</td><td style="padding:7px 10px;color:#a8edcd;font-weight:700">played</td><td style="padding:7px 10px;color:#f4a0a8">didn't play</td><td><button class="spk-btn" onclick="speak('They played. They did not play.')">🔊</button></td></tr>
+        </table>
+        <div style="margin-top:10px;font-size:13px;color:#8899aa;text-align:center;direction:rtl">💡 שים לב — לכל הגופים אותה צורה! אין שינוי בין he ל-I ב-Past Simple!</div>
+      </div>
+
+      <div style="margin-top:22px;background:#1d4060;border-radius:12px;padding:14px 16px;font-size:13.5px;color:#c0d0e0;line-height:1.8;text-align:center">
+        🎯 <strong style="color:#7ec8e3">עכשיו תרגל!</strong> לחץ על פרק 5 ופרק 6 כדי לתרגל Past Simple עם פעלים רגילים.
+      </div>
+    </div>
+
+  </div>
+  <!-- CH9 MIX CHOICE -->
+  <div id="chapter9" style="display:none">
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="prog9"></div></div>
+    <div class="progress-label" id="label9"></div>
+    <div id="q9card" class="card"></div>
+  </div>
+
+  <!-- CH10 MIX FILL-IN -->
+  <div id="chapter10" style="display:none">
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="prog10"></div></div>
+    <div class="progress-label" id="label10"></div>
+    <div id="q10card" class="card"></div>
+  </div>
+
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// DATA
+// ═══════════════════════════════════════════════════════
+
+const ch1=[
+  {q:"She ___ to school every day.",opts:["go","goes","going","gone"],a:1},
+  {q:"They ___ soccer on weekends.",opts:["plays","playing","play","played"],a:2},
+  {q:"He ___ a book every night.",opts:["read","reads","reading","readed"],a:1},
+  {q:"We ___ pizza on Fridays.",opts:["eats","eating","eat","ate"],a:2},
+  {q:"My dog ___ a lot.",opts:["bark","barks","barking","barked"],a:1},
+  {q:"I ___ English at school.",opts:["studies","study","studying","studied"],a:1},
+  {q:"The sun ___ in the east.",opts:["rise","raising","rises","risen"],a:2},
+  {q:"Birds ___ south in winter.",opts:["fly","flies","flew","flying"],a:0},
+  {q:"My mom ___ dinner every evening.",opts:["cook","cooking","cooks","cooked"],a:2},
+  {q:"He ___ to music on the bus.",opts:["listen","listens","listening","listened"],a:1},
+  {q:"The baby ___ at night.",opts:["cry","cries","crying","cried"],a:1},
+  {q:"We ___ our homework after school.",opts:["does","do","doing","did"],a:1},
+  {q:"She ___ in a hospital.",opts:["work","works","working","worked"],a:1},
+  {q:"My father ___ the newspaper every morning.",opts:["read","reads","reading","red"],a:1},
+  {q:"The train ___ at 8 o'clock.",opts:["leave","leaves","leaving","left"],a:1},
+  {q:"They ___ TV after dinner.",opts:["watch","watches","watching","watched"],a:0},
+  {q:"Water ___ at 100 degrees.",opts:["boil","boils","boiling","boiled"],a:1},
+  {q:"He ___ his teeth twice a day.",opts:["brush","brushes","brushing","brushed"],a:1},
+  {q:"I ___ my grandma every Sunday.",opts:["visits","visit","visiting","visited"],a:1},
+  {q:"The cat ___ on the sofa.",opts:["sleep","sleeps","sleeping","slept"],a:1},
+  {q:"She ___ three languages.",opts:["speak","speaks","speaking","spoke"],a:1},
+  {q:"They ___ in London.",opts:["live","lives","living","lived"],a:0},
+  {q:"He ___ early every day.",opts:["wake","wakes","waking","woke"],a:1},
+  {q:"The students ___ in the library.",opts:["study","studies","studying","studied"],a:0},
+  {q:"My sister ___ the piano.",opts:["play","plays","playing","played"],a:1},
+  {q:"We ___ to the beach every summer.",opts:["goes","go","going","went"],a:1},
+  {q:"The earth ___ around the sun.",opts:["move","moves","moving","moved"],a:1},
+  {q:"He always ___ his keys.",opts:["lose","loses","losing","lost"],a:1},
+  {q:"She ___ her bed every morning.",opts:["make","makes","making","made"],a:1},
+  {q:"I ___ coffee in the morning.",opts:["drink","drinks","drinking","drank"],a:0},
+];
+
+const ch2=[
+  {before:"She",verb:"go",after:"to school by bus.",answers:["goes"]},
+  {before:"I",verb:"eat",after:"breakfast at 7 a.m.",answers:["eat"]},
+  {before:"He",verb:"play",after:"football every Saturday.",answers:["plays"]},
+  {before:"They",verb:"live",after:"in a small village.",answers:["live"]},
+  {before:"My cat",verb:"sleep",after:"on my bed every night.",answers:["sleeps"]},
+  {before:"We",verb:"study",after:"English three times a week.",answers:["study"]},
+  {before:"The dog",verb:"bark",after:"when it is hungry.",answers:["barks"]},
+  {before:"She",verb:"read",after:"a book every night.",answers:["reads"]},
+  {before:"He",verb:"watch",after:"TV after dinner.",answers:["watches"]},
+  {before:"I",verb:"brush",after:"my teeth twice a day.",answers:["brush"]},
+  {before:"The baby",verb:"cry",after:"when it is tired.",answers:["cries"]},
+  {before:"We",verb:"visit",after:"our grandparents on weekends.",answers:["visit"]},
+  {before:"She",verb:"cook",after:"delicious food.",answers:["cooks"]},
+  {before:"My father",verb:"drive",after:"to work every day.",answers:["drives"]},
+  {before:"The train",verb:"leave",after:"at 6 o'clock.",answers:["leaves"]},
+  {before:"I",verb:"do",after:"my homework in the evening.",answers:["do"]},
+  {before:"He",verb:"speak",after:"English very well.",answers:["speaks"]},
+  {before:"They",verb:"play",after:"music in a band.",answers:["play"]},
+  {before:"My sister",verb:"love",after:"chocolate ice cream.",answers:["loves"]},
+  {before:"We",verb:"swim",after:"at the pool on Mondays.",answers:["swim"]},
+  {before:"The sun",verb:"rise",after:"in the morning.",answers:["rises"]},
+  {before:"He",verb:"drink",after:"water after exercise.",answers:["drinks"]},
+  {before:"I",verb:"wake",after:"up at 7 every morning.",answers:["wake"]},
+  {before:"She",verb:"listen",after:"to music on the bus.",answers:["listens"]},
+  {before:"They",verb:"eat",after:"lunch together at school.",answers:["eat"]},
+  {before:"My mom",verb:"work",after:"at a hospital.",answers:["works"]},
+  {before:"He",verb:"lose",after:"his phone all the time.",answers:["loses"]},
+  {before:"The earth",verb:"move",after:"around the sun.",answers:["moves"]},
+  {before:"We",verb:"need",after:"water to survive.",answers:["need"]},
+  {before:"She",verb:"finish",after:"school at 3 o'clock.",answers:["finishes"]},
+];
+
+const ch3=[
+  {q:"Look! She ___ a book right now.",opts:["read","reads","is reading","reading"],a:2},
+  {q:"They ___ football in the garden at the moment.",opts:["are playing","play","plays","played"],a:0},
+  {q:"Be quiet! The baby ___.",opts:["sleeps","is sleeping","are sleeping","sleep"],a:1},
+  {q:"I ___ my homework right now.",opts:["do","does","am doing","is doing"],a:2},
+  {q:"He ___ to music on his phone now.",opts:["listens","listen","are listening","is listening"],a:3},
+  {q:"We ___ dinner at the moment.",opts:["eat","eats","are eating","is eating"],a:2},
+  {q:"Look out! It ___!",opts:["rains","rain","is raining","are raining"],a:2},
+  {q:"She ___ a cake in the kitchen right now.",opts:["make","makes","is making","are making"],a:2},
+  {q:"The dog ___ in the garden.",opts:["run","runs","are running","is running"],a:3},
+  {q:"I ___ you because I need help.",opts:["call","calls","am calling","is calling"],a:2},
+  {q:"They ___ a film at the cinema now.",opts:["watch","watches","are watching","is watching"],a:2},
+  {q:"He ___ his bike in the park.",opts:["ride","rides","is riding","are riding"],a:2},
+  {q:"My parents ___ to London this weekend.",opts:["travel","travels","are travelling","is travelling"],a:2},
+  {q:"She ___ on her phone right now.",opts:["talk","talks","is talking","are talking"],a:2},
+  {q:"The children ___ in the pool.",opts:["swim","swims","are swimming","is swimming"],a:2},
+  {q:"I ___ a sandwich right now.",opts:["eat","eats","am eating","is eating"],a:2},
+  {q:"He ___ his room at the moment.",opts:["clean","cleans","is cleaning","are cleaning"],a:2},
+  {q:"We ___ to a new city this summer.",opts:["move","moves","are moving","is moving"],a:2},
+  {q:"She ___ her hair right now.",opts:["wash","washes","is washing","are washing"],a:2},
+  {q:"They ___ a new game.",opts:["play","plays","are playing","is playing"],a:2},
+  {q:"My brother ___ chess with dad now.",opts:["play","plays","is playing","are playing"],a:2},
+  {q:"I ___ the dishes. Can you help?",opts:["wash","washes","am washing","is washing"],a:2},
+  {q:"The teacher ___ on the board.",opts:["write","writes","is writing","are writing"],a:2},
+  {q:"We ___ for the bus right now.",opts:["wait","waits","are waiting","is waiting"],a:2},
+  {q:"She ___ a letter to her friend.",opts:["write","writes","is writing","are writing"],a:2},
+  {q:"They ___ their bags for the trip.",opts:["pack","packs","are packing","is packing"],a:2},
+  {q:"He ___ to his teacher right now.",opts:["speak","speaks","is speaking","are speaking"],a:2},
+  {q:"I ___ a great book this week.",opts:["read","reads","am reading","is reading"],a:2},
+  {q:"My cat ___ on the sofa at the moment.",opts:["sit","sits","is sitting","are sitting"],a:2},
+  {q:"We ___ in the garden. Come join us!",opts:["play","plays","are playing","is playing"],a:2},
+];
+
+const ch4=[
+  {before:"She",verb:"read",after:"a book right now.",answers:["is reading"]},
+  {before:"They",verb:"play",after:"football in the garden.",answers:["are playing"]},
+  {before:"I",verb:"do",after:"my homework at the moment.",answers:["am doing"]},
+  {before:"He",verb:"listen",after:"to music on his phone.",answers:["is listening"]},
+  {before:"We",verb:"eat",after:"dinner right now.",answers:["are eating"]},
+  {before:"It",verb:"rain",after:"outside. Bring an umbrella!",answers:["is raining"]},
+  {before:"She",verb:"make",after:"a cake in the kitchen.",answers:["is making"]},
+  {before:"The dog",verb:"run",after:"in the garden.",answers:["is running"]},
+  {before:"I",verb:"call",after:"you because I need help.",answers:["am calling"]},
+  {before:"They",verb:"watch",after:"a film at the cinema.",answers:["are watching"]},
+  {before:"He",verb:"ride",after:"his bike in the park.",answers:["is riding"]},
+  {before:"My parents",verb:"travel",after:"to London this weekend.",answers:["are travelling","are traveling"]},
+  {before:"She",verb:"talk",after:"on her phone right now.",answers:["is talking"]},
+  {before:"The children",verb:"swim",after:"in the pool.",answers:["are swimming"]},
+  {before:"I",verb:"eat",after:"a sandwich. I'm very hungry!",answers:["am eating"]},
+  {before:"He",verb:"clean",after:"his room at the moment.",answers:["is cleaning"]},
+  {before:"We",verb:"move",after:"to a new city this summer.",answers:["are moving"]},
+  {before:"She",verb:"wash",after:"her hair right now.",answers:["is washing"]},
+  {before:"My brother",verb:"play",after:"chess with dad.",answers:["is playing"]},
+  {before:"I",verb:"wash",after:"the dishes. Can you help?",answers:["am washing"]},
+  {before:"The teacher",verb:"write",after:"on the board.",answers:["is writing"]},
+  {before:"We",verb:"wait",after:"for the bus right now.",answers:["are waiting"]},
+  {before:"She",verb:"write",after:"a letter to her friend.",answers:["is writing"]},
+  {before:"They",verb:"pack",after:"their bags for the trip.",answers:["are packing"]},
+  {before:"He",verb:"speak",after:"to his teacher right now.",answers:["is speaking"]},
+  {before:"I",verb:"read",after:"a great book this week.",answers:["am reading"]},
+  {before:"My cat",verb:"sit",after:"on the sofa at the moment.",answers:["is sitting"]},
+  {before:"We",verb:"play",after:"in the garden. Come join us!",answers:["are playing"]},
+  {before:"The baby",verb:"sleep",after:"in the bedroom.",answers:["is sleeping"]},
+  {before:"They",verb:"build",after:"a sandcastle on the beach.",answers:["are building"]},
+];
+
+const ch5=[
+  {q:"She ___ to school yesterday.",opts:["walk","walks","walked","walking"],a:2},
+  {q:"They ___ football in the park last Sunday.",opts:["play","plays","played","playing"],a:2},
+  {q:"He ___ his room after breakfast.",opts:["clean","cleans","cleaned","cleaning"],a:2},
+  {q:"We ___ at the hotel for a week.",opts:["stay","stays","stayed","staying"],a:2},
+  {q:"I ___ my grandma last weekend.",opts:["visit","visits","visited","visiting"],a:2},
+  {q:"She ___ a lot at the comedy show.",opts:["laugh","laughs","laughed","laughing"],a:2},
+  {q:"The baby ___ all night.",opts:["cry","cries","cried","crying"],a:2},
+  {q:"He ___ the door when he left.",opts:["close","closes","closed","closing"],a:2},
+  {q:"We ___ on the phone for an hour.",opts:["talk","talks","talked","talking"],a:2},
+  {q:"I ___ for the bus in the rain.",opts:["wait","waits","waited","waiting"],a:2},
+  {q:"She ___ her bike to the park.",opts:["carry","carries","carried","carrying"],a:2},
+  {q:"They ___ the game at school yesterday.",opts:["enjoy","enjoys","enjoyed","enjoying"],a:2},
+  {q:"He ___ the window to get some air.",opts:["open","opens","opened","opening"],a:2},
+  {q:"We ___ the kitchen after dinner.",opts:["clean","cleans","cleaned","cleaning"],a:2},
+  {q:"I ___ my friend in the street.",opts:["notice","notices","noticed","noticing"],a:2},
+  {q:"She ___ a letter to her pen pal.",opts:["post","posts","posted","posting"],a:2},
+  {q:"They ___ the garden on Saturday morning.",opts:["water","waters","watered","watering"],a:2},
+  {q:"He ___ his homework before dinner.",opts:["finish","finishes","finished","finishing"],a:2},
+  {q:"We ___ our bags the night before the trip.",opts:["pack","packs","packed","packing"],a:2},
+  {q:"I ___ the teacher's question in class.",opts:["answer","answers","answered","answering"],a:2},
+  {q:"She ___ her dog in the park every day last week.",opts:["walk","walks","walked","walking"],a:2},
+  {q:"They ___ the living room for the party.",opts:["decorate","decorates","decorated","decorating"],a:2},
+  {q:"He ___ the ball into the goal!",opts:["kick","kicks","kicked","kicking"],a:2},
+  {q:"We ___ a lot during the holidays.",opts:["relax","relaxes","relaxed","relaxing"],a:2},
+  {q:"I ___ my mum with the shopping.",opts:["help","helps","helped","helping"],a:2},
+  {q:"She ___ her dress for the school play.",opts:["iron","irons","ironed","ironing"],a:2},
+  {q:"They ___ the dishes after lunch.",opts:["wash","washes","washed","washing"],a:2},
+  {q:"He ___ the story to his little sister.",opts:["explain","explains","explained","explaining"],a:2},
+  {q:"We ___ the park yesterday afternoon.",opts:["visit","visits","visited","visiting"],a:2},
+  {q:"I ___ my name on the homework.",opts:["sign","signs","signed","signing"],a:2},
+];
+
+const ch6=[
+  {before:"She",verb:"walk",after:"to school yesterday.",answers:["walked"]},
+  {before:"They",verb:"play",after:"football in the park last Sunday.",answers:["played"]},
+  {before:"He",verb:"clean",after:"his room after breakfast.",answers:["cleaned"]},
+  {before:"We",verb:"stay",after:"at the hotel for a week.",answers:["stayed"]},
+  {before:"I",verb:"visit",after:"my grandma last weekend.",answers:["visited"]},
+  {before:"She",verb:"laugh",after:"a lot at the comedy show.",answers:["laughed"]},
+  {before:"The baby",verb:"cry",after:"all night.",answers:["cried"]},
+  {before:"He",verb:"close",after:"the door when he left.",answers:["closed"]},
+  {before:"We",verb:"talk",after:"on the phone for an hour.",answers:["talked"]},
+  {before:"I",verb:"wait",after:"for the bus in the rain.",answers:["waited"]},
+  {before:"She",verb:"carry",after:"her bike to the park.",answers:["carried"]},
+  {before:"They",verb:"enjoy",after:"the game at school yesterday.",answers:["enjoyed"]},
+  {before:"He",verb:"open",after:"the window to get some air.",answers:["opened"]},
+  {before:"We",verb:"clean",after:"the kitchen after dinner.",answers:["cleaned"]},
+  {before:"I",verb:"notice",after:"my friend in the street.",answers:["noticed"]},
+  {before:"She",verb:"post",after:"a letter to her pen pal.",answers:["posted"]},
+  {before:"They",verb:"water",after:"the garden on Saturday morning.",answers:["watered"]},
+  {before:"He",verb:"finish",after:"his homework before dinner.",answers:["finished"]},
+  {before:"We",verb:"pack",after:"our bags the night before the trip.",answers:["packed"]},
+  {before:"I",verb:"answer",after:"the teacher's question in class.",answers:["answered"]},
+  {before:"She",verb:"walk",after:"her dog in the park last week.",answers:["walked"]},
+  {before:"They",verb:"decorate",after:"the living room for the party.",answers:["decorated"]},
+  {before:"He",verb:"kick",after:"the ball into the goal.",answers:["kicked"]},
+  {before:"We",verb:"relax",after:"a lot during the holidays.",answers:["relaxed"]},
+  {before:"I",verb:"help",after:"my mum with the shopping.",answers:["helped"]},
+  {before:"She",verb:"iron",after:"her dress for the school play.",answers:["ironed"]},
+  {before:"They",verb:"wash",after:"the dishes after lunch.",answers:["washed"]},
+  {before:"He",verb:"explain",after:"the story to his little sister.",answers:["explained"]},
+  {before:"We",verb:"visit",after:"the park yesterday afternoon.",answers:["visited"]},
+  {before:"I",verb:"sign",after:"my name on the homework.",answers:["signed"]},
+];
+
+// VOCAB — 30 words (Unit 4 + previous units)
+const vocabWords=[
+  {en:"to sing",      he:"לשיר",                  past:"sang",          example:"She sang a beautiful song."},
+  {en:"to eat",       he:"לאכול",                 past:"ate",           example:"We ate pizza last night."},
+  {en:"to swim",      he:"לשחות",                 past:"swam",          example:"He swam in the sea."},
+  {en:"to feed",      he:"להאכיל",                past:"fed",           example:"She fed the dog."},
+  {en:"to do",        he:"לעשות",                 past:"did",           example:"I did my homework."},
+  {en:"to know",      he:"לדעת",                  past:"knew",          example:"He knew the answer."},
+  {en:"to send",      he:"לשלוח",                 past:"sent",          example:"They sent a message."},
+  {en:"to sell",      he:"למכור",                 past:"sold",          example:"She sold her old bike."},
+  {en:"to win",       he:"לנצח",                  past:"won",           example:"We won the game!"},
+  {en:"to go",        he:"ללכת",                  past:"went",          example:"I went to school."},
+  {en:"to play",      he:"לשחק",                  past:"played",        example:"They played football yesterday."},
+  {en:"to like",      he:"לאהוב",                 past:"liked",         example:"She liked the film a lot."},
+  {en:"to have",      he:"לקבל / יש לי",          past:"had",           example:"He had a great idea."},
+  {en:"to listen",    he:"להקשיב",                past:"listened",      example:"We listened to the teacher."},
+  {en:"to save",      he:"להציל / לשמור",         past:"saved",         example:"She saved a lot of money."},
+  {en:"to watch",     he:"לצפות",                 past:"watched",       example:"They watched TV after dinner."},
+  {en:"to act",       he:"לפעול / לשחק תפקיד",   past:"acted",         example:"She acted quickly in the emergency."},
+  {en:"to be born",   he:"להיוולד",               past:"was/were born", example:"He was born in July."},
+  {en:"to live",      he:"לחיות / לגור",          past:"lived",         example:"They lived in London for years."},
+  {en:"to thank",     he:"להודות / לתודה",        past:"thanked",       example:"She thanked him for the gift."},
+  {en:"empty",        he:"ריק / ריקה",            past:"—",             example:"My cup is empty."},
+  {en:"head",         he:"ראש",                   past:"—",             example:"Use your head!"},
+  {en:"light",        he:"אור / קל",              past:"—",             example:"Our house has a lot of light."},
+  {en:"unhappy",      he:"עצוב / לא מאושר",       past:"—",             example:"Jenny was unhappy yesterday."},
+  {en:"machine",      he:"מכונה",                 past:"—",             example:"My family needs a new washing machine."},
+  {en:"newspaper",    he:"עיתון",                 past:"—",             example:"My father likes to read the newspaper."},
+  {en:"pilot",        he:"טייס",                  past:"—",             example:"We talked to a pilot yesterday."},
+  {en:"science",      he:"מדע / מדעים",           past:"—",             example:"Nina's favorite class is science."},
+  {en:"television",   he:"טלוויזיה",              past:"—",             example:"They watch a lot of television."},
+  {en:"for example",  he:"לדוגמה / למשל",         past:"—",             example:"Eat vegetables, for example cucumbers."},
+];
+
+// ═══════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════
+let c1idx=0,c1score=0,c1answered=false;
+let c2idx=0,c2score=0,c2tries=0;
+let c3idx=0,c3score=0,c3answered=false;
+let c4idx=0,c4score=0,c4tries=0;
+let c5idx=0,c5score=0,c5answered=false;
+let c6idx=0,c6score=0,c6tries=0;
+let activeChapter=1;
+let vocabMode='flash';
+let flashIdx=0,flashFlipped=false;
+let quizIdx=0,quizScore=0,quizAnswered=false;
+let mcVocabIdx=0,mcVocabScore=0,mcVocabAnswered=false;
+// shuffled order for mc vocab so questions don't repeat in same order
+let mcVocabOrder=[];
+
+// ═══════════════════════════════════════════════════════
+// NAV
+// ═══════════════════════════════════════════════════════
+function switchChapter(n){
+  activeChapter=n;
+  for(let i=1;i<=10;i++){
+    const ch=document.getElementById('chapter'+i);
+    if(ch) ch.style.display=i===n?'block':'none';
+    const tb=document.getElementById('tab'+i);
+    if(tb){
+      let cls='tab-btn';
+      if(i===7) cls+=' vocab-tab';
+      if(i===n) cls+=' active';
+      tb.className=cls;
+    }
+  }
+  if(n===7) renderVocab();
+  if(n===9){c9idx=0;c9score=0;c9answered=false;c9questions=buildMixMC();renderQ9();}
+  if(n===10){c10idx=0;c10score=0;c10tries=0;c10questions=buildMixFill();renderQ10();}
+}
+
+// ═══════════════════════════════════════════════════════
+// GENERIC HELPERS
+// ═══════════════════════════════════════════════════════
+// ─── shuffle helper ───────────────────────────────────────
+// Returns [{text, isCorrect}] in random order
+function shuffleOpts(q){
+  const items=q.opts.map((o,i)=>({text:o,correct:i===q.a}));
+  for(let i=items.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}
+  return items;
+}
+// Store shuffled options per chapter so pick() can reference them
+const shuffled={c1:null,c3:null,c5:null};
+
+function renderMC(ch,q,idx,total,score,cardId,fbId,btnPrefix,pickerName){
+  const L=['A','B','C','D'];
+  shuffled[ch]=shuffleOpts(q);
+  document.getElementById(cardId).innerHTML=
+    `<div class="question-num">Question ${idx+1}</div>
+     <div class="question-text">${q.q}</div>
+     <div class="options-grid">
+       ${shuffled[ch].map((o,i)=>`<button class="option-btn" id="${btnPrefix}${i}" onclick="${pickerName}(${i})">${L[i]}. ${o.text}</button>`).join('')}
+     </div>
+     <div class="feedback" id="${fbId}"></div>`;
+}
+
+function revealMC(ch,chosen,prefix,fbId,correctText,onCorrect,onWrong){
+  const opts=shuffled[ch];
+  const correctIdx=opts.findIndex(o=>o.correct);
+  for(let j=0;j<4;j++){
+    const b=document.getElementById(prefix+'opt'+j);
+    if(!b)continue;
+    b.disabled=true;
+    if(j===correctIdx) b.classList.add('revealed-correct');
+    else if(j===chosen) b.classList.add('revealed-wrong');
+  }
+  const fb=document.getElementById(fbId);
+  if(chosen===correctIdx){
+    fb.textContent='✅ Correct!';fb.className='feedback correct';
+    setTimeout(onCorrect,1400);
+  } else {
+    fb.innerHTML=`❌ The answer is: <strong>"${correctText}"</strong>`;fb.className='feedback wrong';
+    setTimeout(onWrong,3000);
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// CHAPTER 1
+// ═══════════════════════════════════════════════════════
+function renderQ1(){
+  const card=document.getElementById('q1card');
+  if(c1idx>=ch1.length){const pct=Math.round(c1score/ch1.length*100);const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';card.innerHTML=`<div class="score-screen"><div class="stars">${stars}</div><h2>Chapter 1 Done!</h2><div class="big-score">${c1score}/30</div><p>${pct}% correct!</p><button class="restart-btn" onclick="c1pick_restart()">🔄 Try Again</button></div>`;return;}
+  c1answered=false;
+  document.getElementById('prog1').style.width=(c1idx/ch1.length*100)+'%';
+  document.getElementById('label1').textContent=`Question ${c1idx+1} / 30  |  ✅ ${c1score}`;
+  renderMC('c1',ch1[c1idx],c1idx,30,c1score,'q1card','c1pick_fb','c1pick_','c1pick');
+}
+function c1pick(i){
+  if(c1answered)return;c1answered=true;
+  const wasCorrect=shuffled['c1'][i].correct;
+  const correct=ch1[c1idx].opts[ch1[c1idx].a];
+  const correctIdx=shuffled['c1'].findIndex(o=>o.correct);
+  for(let j=0;j<4;j++){const b=document.getElementById('c1pick_opt'+j);if(b){b.disabled=true;if(j===correctIdx)b.classList.add('revealed-correct');else if(j===i)b.classList.add('revealed-wrong');}}
+  const fb=document.getElementById('c1pick_fb');
+  if(wasCorrect){c1score++;fb.textContent='✅ Correct!';fb.className='feedback correct';setTimeout(()=>{c1idx++;renderQ1();},1400);}
+  else{fb.innerHTML=`❌ The answer is: <strong>"${correct}"</strong>`;fb.className='feedback wrong';setTimeout(()=>{c1idx++;renderQ1();},3000);}
+}
+function c1pick_restart(){c1idx=0;c1score=0;c1answered=false;renderQ1();}
+
+// ═══════════════════════════════════════════════════════
+// CHAPTER 2
+// ═══════════════════════════════════════════════════════
+function renderQ2(){
+  const card=document.getElementById('q2card');
+  if(c2idx>=ch2.length){done(card,'Chapter 2','c2',ch2.length);return;}
+  const q=ch2[c2idx];c2tries=0;
+  document.getElementById('prog2').style.width=(c2idx/ch2.length*100)+'%';
+  document.getElementById('label2').textContent=`Question ${c2idx+1} / 30  |  ✅ ${c2score}`;
+  card.innerHTML=fillCard('c2',q,c2idx);
+  document.getElementById('fi_c2').focus();
+}
+function checkFill(ch,chData,idxRef,scoreRef,triesRef,setIdx,setScore,setTries,rerender){
+  const q=chData[idxRef];const inp=document.getElementById('fi_'+ch);const val=inp.value.trim().toLowerCase();
+  const fb=document.getElementById('fb_'+ch);if(!val)return;
+  if(q.answers.includes(val)){
+    inp.classList.add('correct');setScore(scoreRef+1);fb.textContent='✅ Perfect!';fb.className='feedback correct';inp.disabled=true;
+    setTimeout(()=>{setIdx(idxRef+1);rerender();},1200);
+  } else {
+    setTries(triesRef+1);
+    const dot=document.getElementById('d_'+ch+'_'+(triesRef));if(dot)dot.classList.add('used');
+    inp.classList.add('wrong');setTimeout(()=>inp.classList.remove('wrong'),350);
+    if(triesRef+1>=3){
+      fb.innerHTML=`❌ The answer is: <strong>"${q.answers[0]}"</strong>`;fb.className='feedback wrong';inp.disabled=true;
+      setTimeout(()=>{setIdx(idxRef+1);rerender();},3000);
+    } else {
+      fb.textContent=`❌ Try again! (${2-triesRef} tries left)`;fb.className='feedback wrong';inp.value='';inp.focus();
+    }
+  }
+}
+function fillCard(ch,q,idx){
+  return `<div class="question-num">Question ${idx+1}</div>
+    <div class="fill-hint">Use the verb in the correct form:</div>
+    <div class="sentence-parts">${q.before} <span class="verb-badge">(${q.verb})</span> ${q.after}</div>
+    <div class="tries-indicator"><div class="try-dot" id="d_${ch}_0"></div><div class="try-dot" id="d_${ch}_1"></div><div class="try-dot" id="d_${ch}_2"></div></div>
+    <div class="fill-wrap">
+      <input class="fill-input" id="fi_${ch}" placeholder="Type your answer..." autocomplete="off" spellcheck="false" onkeydown="if(event.key==='Enter')checkFill_${ch}()">
+      <button class="check-btn" onclick="checkFill_${ch}()">Check ✓</button>
+    </div>
+    <div class="feedback" id="fb_${ch}"></div>`;
+}
+function fillCardProg(ch,q,idx){
+  return `<div class="question-num">Question ${idx+1}</div>
+    <div class="fill-hint">Write am/is/are + verb-ing:</div>
+    <div class="sentence-parts">${q.before} <span class="verb-badge">(${q.verb})</span> ${q.after}</div>
+    <div class="tries-indicator"><div class="try-dot" id="d_${ch}_0"></div><div class="try-dot" id="d_${ch}_1"></div><div class="try-dot" id="d_${ch}_2"></div></div>
+    <div class="fill-wrap">
+      <input class="fill-input" id="fi_${ch}" placeholder="e.g. is playing..." autocomplete="off" spellcheck="false" onkeydown="if(event.key==='Enter')checkFill_${ch}()">
+      <button class="check-btn" onclick="checkFill_${ch}()">Check ✓</button>
+    </div>
+    <div class="feedback" id="fb_${ch}"></div>`;
+}
+function done(card,title,ch,total){
+  const score=ch==='c2'?c2score:ch==='c4'?c4score:ch==='c6'?c6score:0;
+  const pct=Math.round(score/total*100);const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+  card.innerHTML=`<div class="score-screen"><div class="stars">${stars}</div><h2>${title} Done!</h2><div class="big-score">${score}/${total}</div><p>${pct}% correct!</p><button class="restart-btn" onclick="restart_${ch}()">🔄 Try Again</button></div>`;
+}
+function checkFill_c2(){checkFill('c2',ch2,c2idx,c2score,c2tries,i=>{c2idx=i},s=>{c2score=s},t=>{c2tries=t},renderQ2);}
+function restart_c2(){c2idx=0;c2score=0;c2tries=0;renderQ2();}
+
+// ═══════════════════════════════════════════════════════
+// CHAPTER 3
+// ═══════════════════════════════════════════════════════
+function renderQ3(){
+  const card=document.getElementById('q3card');
+  if(c3idx>=ch3.length){const pct=Math.round(c3score/ch3.length*100);const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';card.innerHTML=`<div class="score-screen"><div class="stars">${stars}</div><h2>Chapter 3 Done!</h2><div class="big-score">${c3score}/30</div><p>${pct}% correct!</p><button class="restart-btn" onclick="restart_c3()">🔄 Try Again</button></div>`;return;}
+  c3answered=false;
+  document.getElementById('prog3').style.width=(c3idx/ch3.length*100)+'%';
+  document.getElementById('label3').textContent=`Question ${c3idx+1} / 30  |  ✅ ${c3score}`;
+  renderMC('c3',ch3[c3idx],c3idx,30,c3score,'q3card','c3fb','c3opt','c3pick');
+}
+function c3pick(i){
+  if(c3answered)return;c3answered=true;
+  const wasCorrect=shuffled['c3'][i].correct;
+  const correct=ch3[c3idx].opts[ch3[c3idx].a];
+  const correctIdx=shuffled['c3'].findIndex(o=>o.correct);
+  for(let j=0;j<4;j++){const b=document.getElementById('c3opt'+j);if(b){b.disabled=true;if(j===correctIdx)b.classList.add('revealed-correct');else if(j===i)b.classList.add('revealed-wrong');}}
+  const fb=document.getElementById('c3fb');
+  if(wasCorrect){c3score++;fb.textContent='✅ Correct!';fb.className='feedback correct';setTimeout(()=>{c3idx++;renderQ3();},1400);}
+  else{fb.innerHTML=`❌ The answer is: <strong>"${correct}"</strong>`;fb.className='feedback wrong';setTimeout(()=>{c3idx++;renderQ3();},3000);}
+}
+function restart_c3(){c3idx=0;c3score=0;c3answered=false;renderQ3();}
+
+// ═══════════════════════════════════════════════════════
+// CHAPTER 4
+// ═══════════════════════════════════════════════════════
+function renderQ4(){
+  const card=document.getElementById('q4card');
+  if(c4idx>=ch4.length){const pct=Math.round(c4score/ch4.length*100);const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';card.innerHTML=`<div class="score-screen"><div class="stars">${stars}</div><h2>Chapter 4 Done!</h2><div class="big-score">${c4score}/30</div><p>${pct}% correct!</p><button class="restart-btn" onclick="restart_c4()">🔄 Try Again</button></div>`;return;}
+  const q=ch4[c4idx];c4tries=0;
+  document.getElementById('prog4').style.width=(c4idx/ch4.length*100)+'%';
+  document.getElementById('label4').textContent=`Question ${c4idx+1} / 30  |  ✅ ${c4score}`;
+  card.innerHTML=fillCardProg('c4',q,c4idx);
+  document.getElementById('fi_c4').focus();
+}
+function checkFill_c4(){
+  const q=ch4[c4idx];const inp=document.getElementById('fi_c4');const val=inp.value.trim().toLowerCase();
+  const fb=document.getElementById('fb_c4');if(!val)return;
+  if(q.answers.includes(val)){inp.classList.add('correct');c4score++;fb.textContent='✅ Perfect!';fb.className='feedback correct';inp.disabled=true;setTimeout(()=>{c4idx++;renderQ4();},1200);}
+  else{c4tries++;const dot=document.getElementById('d_c4_'+(c4tries-1));if(dot)dot.classList.add('used');inp.classList.add('wrong');setTimeout(()=>inp.classList.remove('wrong'),350);
+    if(c4tries>=3){fb.innerHTML=`❌ The answer is: <strong>"${q.answers[0]}"</strong>`;fb.className='feedback wrong';inp.disabled=true;setTimeout(()=>{c4idx++;renderQ4();},3000);}
+    else{fb.textContent=`❌ Try again! (${3-c4tries} tries left)`;fb.className='feedback wrong';inp.value='';inp.focus();}}
+}
+function restart_c4(){c4idx=0;c4score=0;c4tries=0;renderQ4();}
+
+// ═══════════════════════════════════════════════════════
+// CHAPTER 5
+// ═══════════════════════════════════════════════════════
+function renderQ5(){
+  const card=document.getElementById('q5card');
+  if(c5idx>=ch5.length){const pct=Math.round(c5score/ch5.length*100);const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';card.innerHTML=`<div class="score-screen"><div class="stars">${stars}</div><h2>Chapter 5 Done!</h2><div class="big-score">${c5score}/30</div><p>${pct}% correct!</p><button class="restart-btn" onclick="restart_c5()">🔄 Try Again</button></div>`;return;}
+  c5answered=false;
+  document.getElementById('prog5').style.width=(c5idx/ch5.length*100)+'%';
+  document.getElementById('label5').textContent=`Question ${c5idx+1} / 30  |  ✅ ${c5score}`;
+  renderMC('c5',ch5[c5idx],c5idx,30,c5score,'q5card','c5fb','c5opt','c5pick');
+}
+function c5pick(i){
+  if(c5answered)return;c5answered=true;
+  const wasCorrect=shuffled['c5'][i].correct;
+  const correct=ch5[c5idx].opts[ch5[c5idx].a];
+  const correctIdx=shuffled['c5'].findIndex(o=>o.correct);
+  for(let j=0;j<4;j++){const b=document.getElementById('c5opt'+j);if(b){b.disabled=true;if(j===correctIdx)b.classList.add('revealed-correct');else if(j===i)b.classList.add('revealed-wrong');}}
+  const fb=document.getElementById('c5fb');
+  if(wasCorrect){c5score++;fb.textContent='✅ Correct!';fb.className='feedback correct';setTimeout(()=>{c5idx++;renderQ5();},1400);}
+  else{fb.innerHTML=`❌ The answer is: <strong>"${correct}"</strong>`;fb.className='feedback wrong';setTimeout(()=>{c5idx++;renderQ5();},3000);}
+}
+function restart_c5(){c5idx=0;c5score=0;c5answered=false;renderQ5();}
+
+// ═══════════════════════════════════════════════════════
+// CHAPTER 6
+// ═══════════════════════════════════════════════════════
+function renderQ6(){
+  const card=document.getElementById('q6card');
+  if(c6idx>=ch6.length){const pct=Math.round(c6score/ch6.length*100);const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';card.innerHTML=`<div class="score-screen"><div class="stars">${stars}</div><h2>Chapter 6 Done!</h2><div class="big-score">${c6score}/30</div><p>${pct}% correct!</p><button class="restart-btn" onclick="restart_c6()">🔄 Try Again</button></div>`;return;}
+  const q=ch6[c6idx];c6tries=0;
+  document.getElementById('prog6').style.width=(c6idx/ch6.length*100)+'%';
+  document.getElementById('label6').textContent=`Question ${c6idx+1} / 30  |  ✅ ${c6score}`;
+  card.innerHTML=fillCard('c6',q,c6idx);
+  document.getElementById('fi_c6').focus();
+}
+function checkFill_c6(){
+  const q=ch6[c6idx];const inp=document.getElementById('fi_c6');const val=inp.value.trim().toLowerCase();
+  const fb=document.getElementById('fb_c6');if(!val)return;
+  if(q.answers.includes(val)){inp.classList.add('correct');c6score++;fb.textContent='✅ Perfect!';fb.className='feedback correct';inp.disabled=true;setTimeout(()=>{c6idx++;renderQ6();},1200);}
+  else{c6tries++;const dot=document.getElementById('d_c6_'+(c6tries-1));if(dot)dot.classList.add('used');inp.classList.add('wrong');setTimeout(()=>inp.classList.remove('wrong'),350);
+    if(c6tries>=3){fb.innerHTML=`❌ The answer is: <strong>"${q.answers[0]}"</strong>`;fb.className='feedback wrong';inp.disabled=true;setTimeout(()=>{c6idx++;renderQ6();},3000);}
+    else{fb.textContent=`❌ Try again! (${3-c6tries} tries left)`;fb.className='feedback wrong';inp.value='';inp.focus();}}
+}
+function restart_c6(){c6idx=0;c6score=0;c6tries=0;renderQ6();}
+
+// ═══════════════════════════════════════════════════════
+// CHAPTER 7 — VOCAB
+// ═══════════════════════════════════════════════════════
+function setVocabMode(m){
+  vocabMode=m;
+  document.getElementById('vm1').className='vmode-btn'+(m==='flash'?' active':'');
+  document.getElementById('vm2').className='vmode-btn'+(m==='quiz'?' active':'');
+  document.getElementById('vm3').className='vmode-btn'+(m==='mc'?' active':'');
+  flashIdx=0;flashFlipped=false;
+  quizIdx=0;quizScore=0;quizAnswered=false;
+  mcVocabIdx=0;mcVocabScore=0;mcVocabAnswered=false;
+  renderVocab();
+}
+
+function renderVocab(){
+  const area=document.getElementById('vocab-area');
+  if(vocabMode==='flash') renderFlash(area);
+  else if(vocabMode==='quiz') renderQuiz(area);
+  else renderMCVocab(area);
+}
+
+function renderFlash(area){
+  if(flashIdx>=vocabWords.length){
+    area.innerHTML=`<div class="vocab-card" style="text-align:center;padding:28px">
+      <div style="font-size:28px;margin-bottom:8px">🎉</div>
+      <div style="font-family:'Baloo 2',cursive;font-size:20px;color:#f4a261;margin-bottom:6px">All done!</div>
+      <div style="font-size:13px;color:#8899aa;margin-bottom:18px">You reviewed all ${vocabWords.length} verbs!</div>
+      <button class="restart-btn" onclick="flashIdx=0;renderVocab()">🔄 Start Over</button>
+    </div>`;
+    return;
+  }
+  const w=vocabWords[flashIdx];
+  area.innerHTML=`
+    <div class="vocab-progress">${flashIdx+1} / ${vocabWords.length}</div>
+    <div class="flip-card" id="fc" onclick="flipCard()">
+      <div class="flip-inner" id="fi_flip">
+        <div class="flip-front">
+          <div class="flip-hebrew" style="font-size:28px">${w.he}</div>
+          <div class="flip-tap">👆 Tap to see English</div>
+        </div>
+        <div class="flip-back">
+          <div class="flip-word">${w.en}</div>
+          ${w.past!=='—'?`<div class="flip-hint" style="color:#a8edcd">Past tense: <strong>${w.past}</strong></div>`:''}
+          <div style="font-size:12px;color:#8899aa;font-style:italic;text-align:center;padding:0 10px">"${w.example}"</div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:4px">
+      <button style="flex:1;padding:11px;border-radius:12px;border:1.5px solid #3a2a10;background:transparent;color:#8899aa;font-family:'Nunito',sans-serif;font-size:13px;font-weight:700;cursor:pointer" onclick="flashIdx=Math.max(0,flashIdx-1);flashFlipped=false;renderVocab()">← Back</button>
+      <button style="flex:2;padding:11px;border-radius:12px;border:none;background:#f4a261;color:#0f1b2d;font-family:'Nunito',sans-serif;font-size:14px;font-weight:800;cursor:pointer" onclick="flashIdx++;flashFlipped=false;renderVocab()">Next →</button>
+    </div>`;
+}
+
+function flipCard(){
+  flashFlipped=!flashFlipped;
+  const fc=document.getElementById('fc');
+  if(fc) fc.classList.toggle('flipped',flashFlipped);
+}
+
+function renderQuiz(area){
+  const shuffled=vocabWords.slice().sort(()=>Math.random()-.5);
+  if(quizIdx>=vocabWords.length){
+    const pct=Math.round(quizScore/vocabWords.length*100);const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+    area.innerHTML=`<div class="vocab-card" style="text-align:center;padding:28px">
+      <div style="font-size:28px;margin-bottom:8px">${stars}</div>
+      <div style="font-family:'Baloo 2',cursive;font-size:20px;color:#f4a261;margin-bottom:6px">Vocab Quiz Done!</div>
+      <div style="font-size:40px;font-weight:800;color:#c8e860">${quizScore}/${vocabWords.length}</div>
+      <div style="font-size:13px;color:#8899aa;margin-top:6px;margin-bottom:18px">${pct}% correct!</div>
+      <button class="restart-btn" style="background:#f4a261" onclick="quizIdx=0;quizScore=0;quizAnswered=false;renderVocab()">🔄 Try Again</button>
+    </div>`;
+    return;
+  }
+  const w=vocabWords[quizIdx];
+  // Build 4 options: correct + 3 random wrong
+  const wrong=vocabWords.filter((_,i)=>i!==vocabWords.indexOf(w)).sort(()=>Math.random()-.5).slice(0,3);
+  const opts=[w,...wrong].sort(()=>Math.random()-.5);
+  const correctIdx=opts.indexOf(w);
+  area.innerHTML=`
+    <div class="vocab-score">Score: <span>${quizScore}</span> / ${quizIdx}</div>
+    <div class="vocab-progress">Question ${quizIdx+1} / ${vocabWords.length}</div>
+    <div class="vocab-card">
+      <div class="vocab-question">${w.he}</div>
+      <div class="vocab-sub">What is the English verb?</div>
+      <div class="vocab-opts">
+        ${opts.map((o,i)=>`<button class="vocab-btn" id="vopt${i}" onclick="vpick(${i},${correctIdx},${quizIdx})">${o.en}</button>`).join('')}
+      </div>
+      <div class="feedback" id="vfb"></div>
+    </div>`;
+}
+
+function vpick(i,correct,qnum){
+  if(quizAnswered)return;quizAnswered=true;
+  const fb=document.getElementById('vfb');
+  const w=vocabWords[qnum];
+  for(let j=0;j<4;j++){const b=document.getElementById('vopt'+j);if(b){b.disabled=true;if(j===correct)b.classList.add('revealed-correct');else if(j===i)b.classList.add('revealed-wrong');}}
+  if(i===correct){quizScore++;fb.textContent='✅ Correct!';fb.className='feedback correct';setTimeout(()=>{quizIdx++;quizAnswered=false;renderVocab();},1400);}
+  else{fb.innerHTML=`❌ It's <strong>"${w.en}"</strong>`;fb.className='feedback wrong';setTimeout(()=>{quizIdx++;quizAnswered=false;renderVocab();},3000);}
+}
+
+// ── MC VOCAB (4 options, English→Hebrew, no visual hints before answer) ──────
+function buildMCVocabOrder(){
+  return vocabWords.map((_,i)=>i).sort(()=>Math.random()-.5);
+}
+
+function renderMCVocab(area){
+  if(mcVocabOrder.length===0) mcVocabOrder=buildMCVocabOrder();
+  const total=vocabWords.length;
+  if(mcVocabIdx>=total){
+    const pct=Math.round(mcVocabScore/total*100);
+    const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+    area.innerHTML=`<div class="vocab-card" style="text-align:center;padding:28px">
+      <div style="font-size:28px;margin-bottom:8px">${stars}</div>
+      <div style="font-family:'Baloo 2',cursive;font-size:20px;color:#f4a261;margin-bottom:6px">Quiz Done!</div>
+      <div style="font-size:40px;font-weight:800;color:#c8e860">${mcVocabScore}/${total}</div>
+      <div style="font-size:13px;color:#8899aa;margin-top:6px;margin-bottom:18px">${pct}% correct!</div>
+      <button class="restart-btn" style="background:#f4a261" onclick="mcVocabIdx=0;mcVocabScore=0;mcVocabAnswered=false;mcVocabOrder=buildMCVocabOrder();renderVocab()">🔄 Try Again</button>
+    </div>`;
+    return;
+  }
+  mcVocabAnswered=false;
+  const wIdx=mcVocabOrder[mcVocabIdx];
+  const w=vocabWords[wIdx];
+  // 3 wrong options from different words
+  const wrongPool=vocabWords.filter((_,i)=>i!==wIdx).sort(()=>Math.random()-.5).slice(0,3);
+  // opts = correct + 3 wrong, all shuffled
+  const opts=[{word:w,correct:true},...wrongPool.map(x=>({word:x,correct:false}))].sort(()=>Math.random()-.5);
+  const L=['A','B','C','D'];
+  area.innerHTML=`
+    <div class="vocab-score">Score: <span style="color:#f4a261;font-weight:700">${mcVocabScore}</span> / ${mcVocabIdx}</div>
+    <div class="vocab-progress">Question ${mcVocabIdx+1} / ${total}</div>
+    <div class="vocab-card">
+      <div class="vocab-question" style="font-size:20px;margin-bottom:4px">${w.en}</div>
+      <div class="vocab-sub">מה התרגום בעברית?</div>
+      <div class="vocab-opts">
+        ${opts.map((o,i)=>`<button class="vocab-btn" id="mcvopt${i}" onclick="mcVpick(${i},${opts.findIndex(x=>x.correct)},${wIdx})" style="text-align:right;direction:rtl;font-size:14px">${L[i]}. ${o.word.he}</button>`).join('')}
+      </div>
+      <div class="feedback" id="mcvfb"></div>
+    </div>`;
+}
+
+function mcVpick(i,correctIdx,wIdx){
+  if(mcVocabAnswered)return;
+  mcVocabAnswered=true;
+  const w=vocabWords[wIdx];
+  const fb=document.getElementById('mcvfb');
+  for(let j=0;j<4;j++){
+    const b=document.getElementById('mcvopt'+j);
+    if(b){
+      b.disabled=true;
+      if(j===correctIdx) b.classList.add('revealed-correct');
+      else if(j===i) b.classList.add('revealed-wrong');
+    }
+  }
+  if(i===correctIdx){
+    mcVocabScore++;
+    fb.textContent='✅ Correct!';
+    fb.className='feedback correct';
+    setTimeout(()=>{mcVocabIdx++;mcVocabAnswered=false;renderVocab();},1400);
+  } else {
+    fb.innerHTML=`❌ התשובה הנכונה: <strong>${w.he}</strong>`;
+    fb.className='feedback wrong';
+    setTimeout(()=>{mcVocabIdx++;mcVocabAnswered=false;renderVocab();},3000);
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// TEXT TO SPEECH
+// ═══════════════════════════════════════════════════════
+function speak(text){
+  if(!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='en-US';u.rate=0.88;u.pitch=1;
+  // prefer a native English voice if available
+  const voices=window.speechSynthesis.getVoices();
+  const eng=voices.find(v=>v.lang==='en-US'&&v.localService)||voices.find(v=>v.lang.startsWith('en'));
+  if(eng) u.voice=eng;
+  window.speechSynthesis.speak(u);
+}
+
+function stopSpeak(){
+  if(window.speechSynthesis) window.speechSynthesis.cancel();
+}
+
+const allSentences=[
+  "I played football yesterday.",
+  "She cleaned her room.",
+  "We talked for an hour.",
+  "play, played.",
+  "clean, cleaned.",
+  "talk, talked.",
+  "visit, visited.",
+  "finish, finished.",
+  "like, liked.",
+  "save, saved.",
+  "dance, danced.",
+  "cry, cried.",
+  "carry, carried.",
+  "study, studied.",
+  "stop, stopped.",
+  "plan, planned.",
+  "I did not play football.",
+  "She did not clean her room.",
+  "Did you play football?",
+  "Did she clean her room?",
+  "Yes, I did. No, I did not.",
+  "yesterday. last night. last week. last year. two days ago.",
+  "I played. You played. He played. She played. We played. They played.",
+];
+
+function speakAll(){
+  if(!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  let i=0;
+  function next(){
+    if(i>=allSentences.length) return;
+    const u=new SpeechSynthesisUtterance(allSentences[i++]);
+    u.lang='en-US';u.rate=0.85;u.pitch=1;
+    const voices=window.speechSynthesis.getVoices();
+    const eng=voices.find(v=>v.lang==='en-US'&&v.localService)||voices.find(v=>v.lang.startsWith('en'));
+    if(eng) u.voice=eng;
+    u.onend=next;
+    window.speechSynthesis.speak(u);
+  }
+  next();
+}
+
+// ═══════════════════════════════════════════════════════
+// CHAPTER 9 & 10 — MIX (all tenses, no hints)
+// ═══════════════════════════════════════════════════════
+
+// Pool of MC questions mixing all tenses — NO tense label shown
+const mixMC_pool=[
+  // Present Simple
+  {q:"She ___ to school every day.",opts:["go","goes","is going","went"],a:1},
+  {q:"They ___ soccer every weekend.",opts:["play","plays","are playing","played"],a:0},
+  {q:"He ___ a book before bed.",opts:["reads","read","is reading","was reading"],a:0},
+  {q:"The sun ___ in the east.",opts:["rise","rose","rises","is rising"],a:2},
+  {q:"We ___ pizza every Friday.",opts:["eat","eats","are eating","ate"],a:0},
+  {q:"My dad ___ to work by car.",opts:["drive","drives","is driving","drove"],a:1},
+  {q:"Birds ___ south every winter.",opts:["flew","flies","fly","are flying"],a:2},
+  {q:"She ___ three languages.",opts:["spoke","speaks","is speaking","speak"],a:1},
+  {q:"I ___ coffee every morning.",opts:["drink","drinks","am drinking","drank"],a:0},
+  {q:"The train ___ at 8 every day.",opts:["leave","left","leaves","is leaving"],a:2},
+  // Present Progressive
+  {q:"Look! She ___ in the garden now.",opts:["plays","played","is playing","play"],a:2},
+  {q:"Be quiet! The baby ___ right now.",opts:["sleeps","slept","sleep","is sleeping"],a:3},
+  {q:"I ___ my homework at the moment.",opts:["do","did","am doing","does"],a:2},
+  {q:"They ___ a film at the cinema now.",opts:["watch","watched","are watching","watches"],a:2},
+  {q:"It ___ outside! Take an umbrella.",opts:["rained","rains","is raining","rain"],a:2},
+  {q:"She ___ on her phone right now.",opts:["talks","talked","talk","is talking"],a:3},
+  {q:"We ___ for the bus at the moment.",opts:["wait","waited","are waiting","waits"],a:2},
+  {q:"He ___ his room right now.",opts:["cleans","cleaned","clean","is cleaning"],a:3},
+  {q:"The teacher ___ on the board now.",opts:["writes","wrote","write","is writing"],a:3},
+  {q:"My cat ___ on the sofa right now.",opts:["sits","sat","is sitting","sit"],a:2},
+  // Past Simple
+  {q:"She ___ to the park yesterday.",opts:["walks","walk","is walking","walked"],a:3},
+  {q:"They ___ football last Sunday.",opts:["play","plays","are playing","played"],a:3},
+  {q:"He ___ his room after breakfast.",opts:["cleans","is cleaning","cleaned","clean"],a:2},
+  {q:"I ___ my grandma last weekend.",opts:["visit","visits","am visiting","visited"],a:3},
+  {q:"We ___ on the phone for an hour.",opts:["talk","talks","are talking","talked"],a:3},
+  {q:"She ___ a lot at the show.",opts:["laughs","laugh","laughed","is laughing"],a:2},
+  {q:"He ___ the door when he left.",opts:["closes","close","closed","is closing"],a:2},
+  {q:"They ___ the game at school.",opts:["enjoyed","enjoy","enjoys","are enjoying"],a:0},
+  {q:"I ___ for the bus in the rain.",opts:["wait","waits","waited","am waiting"],a:2},
+  {q:"She ___ a letter to her pen pal.",opts:["posts","post","posted","is posting"],a:2},
+];
+
+// Pool of Fill-in questions — no tense label
+const mixFill_pool=[
+  // Present Simple
+  {before:"She",verb:"go",after:"to school by bus every day.",answers:["goes"]},
+  {before:"He",verb:"play",after:"football every Saturday.",answers:["plays"]},
+  {before:"The sun",verb:"rise",after:"in the east every morning.",answers:["rises"]},
+  {before:"They",verb:"live",after:"in a small village.",answers:["live"]},
+  {before:"I",verb:"drink",after:"coffee every morning.",answers:["drink"]},
+  {before:"My cat",verb:"sleep",after:"on my bed every night.",answers:["sleeps"]},
+  {before:"She",verb:"finish",after:"school at 3 o'clock every day.",answers:["finishes"]},
+  {before:"We",verb:"visit",after:"our grandparents every Sunday.",answers:["visit"]},
+  {before:"The train",verb:"leave",after:"at 8 every morning.",answers:["leaves"]},
+  {before:"He",verb:"brush",after:"his teeth twice a day.",answers:["brushes"]},
+  // Present Progressive
+  {before:"She",verb:"read",after:"a book right now.",answers:["is reading"]},
+  {before:"They",verb:"play",after:"in the garden at the moment.",answers:["are playing"]},
+  {before:"I",verb:"do",after:"my homework right now.",answers:["am doing"]},
+  {before:"It",verb:"rain",after:"outside right now.",answers:["is raining"]},
+  {before:"He",verb:"clean",after:"his room at the moment.",answers:["is cleaning"]},
+  {before:"We",verb:"wait",after:"for the bus right now.",answers:["are waiting"]},
+  {before:"She",verb:"talk",after:"on her phone at this moment.",answers:["is talking"]},
+  {before:"The teacher",verb:"write",after:"on the board now.",answers:["is writing"]},
+  {before:"They",verb:"watch",after:"a film at the cinema now.",answers:["are watching"]},
+  {before:"My cat",verb:"sit",after:"on the sofa right now.",answers:["is sitting"]},
+  // Past Simple
+  {before:"She",verb:"walk",after:"to school yesterday.",answers:["walked"]},
+  {before:"They",verb:"play",after:"football last Sunday.",answers:["played"]},
+  {before:"He",verb:"clean",after:"his room after breakfast.",answers:["cleaned"]},
+  {before:"I",verb:"visit",after:"my grandma last weekend.",answers:["visited"]},
+  {before:"We",verb:"talk",after:"on the phone for an hour.",answers:["talked"]},
+  {before:"She",verb:"laugh",after:"a lot at the show.",answers:["laughed"]},
+  {before:"He",verb:"close",after:"the door when he left.",answers:["closed"]},
+  {before:"They",verb:"enjoy",after:"the game at school yesterday.",answers:["enjoyed"]},
+  {before:"I",verb:"wait",after:"for the bus in the rain.",answers:["waited"]},
+  {before:"She",verb:"post",after:"a letter to her pen pal.",answers:["posted"]},
+];
+
+let c9questions=[], c9idx=0, c9score=0, c9answered=false;
+let c10questions=[], c10idx=0, c10score=0, c10tries=0;
+const shuffled9={};
+
+function buildMixMC(){
+  return [...mixMC_pool].sort(()=>Math.random()-.5);
+}
+function buildMixFill(){
+  return [...mixFill_pool].sort(()=>Math.random()-.5);
+}
+
+function renderQ9(){
+  const card=document.getElementById('q9card');
+  if(!card)return;
+  const total=c9questions.length;
+  if(c9idx>=total){
+    const pct=Math.round(c9score/total*100);const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+    card.innerHTML=`<div class="score-screen"><div class="stars">${stars}</div><h2>Chapter 9 Done!</h2><div class="big-score">${c9score}/${total}</div><p>${pct}% correct!</p><button class="restart-btn" onclick="c9idx=0;c9score=0;c9answered=false;c9questions=buildMixMC();renderQ9()">🔄 Try Again</button></div>`;
+    return;
+  }
+  c9answered=false;
+  const q=c9questions[c9idx];
+  const L=['A','B','C','D'];
+  const items=q.opts.map((o,i)=>({text:o,correct:i===q.a}));
+  for(let i=items.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}
+  shuffled9[c9idx]=items;
+  document.getElementById('prog9').style.width=(c9idx/total*100)+'%';
+  document.getElementById('label9').textContent=`שאלה ${c9idx+1} / ${total}  |  ✅ ${c9score}`;
+  card.innerHTML=`<div class="question-num">Question ${c9idx+1}</div>
+    <div class="question-text">${q.q}</div>
+    <div class="options-grid">${items.map((o,i)=>`<button class="option-btn" id="c9opt${i}" onclick="c9pick(${i})">${L[i]}. ${o.text}</button>`).join('')}</div>
+    <div class="feedback" id="c9fb"></div>`;
+}
+
+function c9pick(i){
+  if(c9answered)return;c9answered=true;
+  const items=shuffled9[c9idx];
+  const correctIdx=items.findIndex(o=>o.correct);
+  const wasCorrect=items[i].correct;
+  const fb=document.getElementById('c9fb');
+  for(let j=0;j<4;j++){const b=document.getElementById('c9opt'+j);if(b){b.disabled=true;if(j===correctIdx)b.classList.add('revealed-correct');else if(j===i)b.classList.add('revealed-wrong');}}
+  if(wasCorrect){c9score++;fb.textContent='✅ Correct!';fb.className='feedback correct';setTimeout(()=>{c9idx++;renderQ9();},1400);}
+  else{fb.innerHTML=`❌ The answer is: <strong>"${items[correctIdx].text}"</strong>`;fb.className='feedback wrong';setTimeout(()=>{c9idx++;renderQ9();},3000);}
+}
+
+function renderQ10(){
+  const card=document.getElementById('q10card');
+  if(!card)return;
+  const total=c10questions.length;
+  if(c10idx>=total){
+    const pct=Math.round(c10score/total*100);const stars=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+    card.innerHTML=`<div class="score-screen"><div class="stars">${stars}</div><h2>Chapter 10 Done!</h2><div class="big-score">${c10score}/${total}</div><p>${pct}% correct!</p><button class="restart-btn" onclick="c10idx=0;c10score=0;c10tries=0;c10questions=buildMixFill();renderQ10()">🔄 Try Again</button></div>`;
+    return;
+  }
+  c10tries=0;
+  const q=c10questions[c10idx];
+  document.getElementById('prog10').style.width=(c10idx/total*100)+'%';
+  document.getElementById('label10').textContent=`שאלה ${c10idx+1} / ${total}  |  ✅ ${c10score}`;
+  card.innerHTML=`<div class="question-num">Question ${c10idx+1}</div>
+    <div class="sentence-parts">${q.before} <span class="verb-badge">(${q.verb})</span> ${q.after}</div>
+    <div class="tries-indicator"><div class="try-dot" id="d10_0"></div><div class="try-dot" id="d10_1"></div><div class="try-dot" id="d10_2"></div></div>
+    <div class="fill-wrap">
+      <input class="fill-input" id="fi10" placeholder="Type your answer..." autocomplete="off" spellcheck="false" onkeydown="if(event.key==='Enter')checkFill10()">
+      <button class="check-btn" onclick="checkFill10()">Check ✓</button>
+    </div>
+    <div class="feedback" id="fb10"></div>`;
+  document.getElementById('fi10').focus();
+}
+
+function checkFill10(){
+  const q=c10questions[c10idx];
+  const inp=document.getElementById('fi10');
+  const val=inp.value.trim().toLowerCase();
+  const fb=document.getElementById('fb10');
+  if(!val)return;
+  if(q.answers.includes(val)){
+    inp.classList.add('correct');c10score++;fb.textContent='✅ Perfect!';fb.className='feedback correct';inp.disabled=true;
+    setTimeout(()=>{c10idx++;renderQ10();},1200);
+  } else {
+    c10tries++;
+    const dot=document.getElementById('d10_'+(c10tries-1));if(dot)dot.classList.add('used');
+    inp.classList.add('wrong');setTimeout(()=>inp.classList.remove('wrong'),350);
+    if(c10tries>=3){
+      fb.innerHTML=`❌ The answer is: <strong>"${q.answers[0]}"</strong>`;fb.className='feedback wrong';inp.disabled=true;
+      setTimeout(()=>{c10idx++;renderQ10();},3000);
+    } else {
+      fb.textContent=`❌ Try again! (${3-c10tries} tries left)`;fb.className='feedback wrong';inp.value='';inp.focus();
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════
+renderQ1();renderQ2();renderQ3();renderQ4();renderQ5();renderQ6();
+// pre-build mix pools so they're ready on first click
+c9questions=buildMixMC();
+c10questions=buildMixFill();
+</script>
+</body>
+</html>
